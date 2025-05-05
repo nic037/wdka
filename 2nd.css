@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+header {background-color:#39439B;}
+h1{color: #C5CE14;}
+h3{color: #C5CE14;}
+
+    .audio-player {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #f0f0f0;
+      padding: 10px 15px;
+      border-radius: 10px;
+      width: fit-content;
+    }
+    .play-btn {
+      background-color: #e60012; /* Nintendo red */
+      color: white;
+      border: none;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+ 
+video {
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #888;
+}
+div.gallery {
+  margin: 13px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 270px;align-content: right;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 20px;
+  text-align: center;
+}
+/* Reset & base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #222;
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  font-family: 'Helvetica Neue', sans-serif;
+  margin-bottom: 20px;
+  color: #111;
+  text-align: center;
+}
+h3{text-align: center;}
+h1 {
+  font-size: 2.5rem;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+/* Video styling */
+video {
+  display: block;
+  margin: 40px auto;
+  border: 3px solid #ccc;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Optional callout */
+a{display: block;
+color: #110E0E;}
+
+
+
